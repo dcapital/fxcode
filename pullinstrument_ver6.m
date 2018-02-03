@@ -24,28 +24,28 @@ end
 %% Login to OANDA API
 tic
 % API Live Account
-account= '7975484';
-token= 'e4f426366939cde4918847bf77f3b5c6-f11d0573a344edd0a806a6462e80da5c';
-%token= 'a4ddcdce14c4b6c3316edd6e4b14829d-638cdf4bc5bf8b6d32c21f1cf6767603';
-% token = 'e02a947ae4cd391126e8b7e9362be5bd-f2b564678b191095e7a26f15b752458f';
+account= '';
+token= ‘’;
+%token= ‘’;
+% token = '';
 api = OandaAPI(token,'live',account) 
 connected = false;
 headers='';
 
-% API account: '7237816'  
-% token ='9dcfaa560886302ff4817957b337d8df-2521e79a49f5420fb12011f5a891f88f'
+% API account: ''  
+% token =''
 
 
 % Practice Account
-% token ='b5505c11e2103cb49b4a58b7c05b3d7a-da97a0e5e43f307562cd88d4bf3b5e9b'; 
+% token =''; 
 % another Live Account
-% token ='f68349b93c6350f304923a27b83f34ea-5dc2c01746c8df162d4ea74b7eaa79d7';;
+% token =';;
 % another Account
-% token ='b26dbcb9ad2f2d2e631a643ab48500a6-f0058b52d563951935b16725424a51db'; 
+% token =''; 
         
 % Practice Account
 % account= '7237816';
-% token ='9dcfaa560886302ff4817957b337d8df-2521e79a49f5420fb12011f5a891f88f';
+% token ='';
 % api = OandaAPI(token,'practice',account)
 
 
